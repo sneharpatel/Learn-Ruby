@@ -1,0 +1,12 @@
+puts "Enter value of co-efficient:"
+m1=gets.to_i
+b1=gets.to_i
+m2=gets.to_i
+b2=gets.to_i
+if((m1==m2) and (b1 != b2))
+  puts "There is no solution."
+elsif((m1==m2) and (b1==b2))
+  puts "There is an infinite solution."
+else
+    puts "There is invalid input."
+end
